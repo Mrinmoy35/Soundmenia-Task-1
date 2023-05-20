@@ -1,0 +1,302 @@
+.margin{
+    width: 100%;
+    height: 10px;
+    margin-top: 0;
+    background-color: rgb(0, 204, 255);
+}
+h5{
+    text-align: center;
+    color: black
+}
+.trending,.brand{
+    padding: 15px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+
+}
+.flexitem{
+    width: 300px;
+    height: 450px;
+    
+    background-color: rgb(246, 255, 252);
+    border: 1px solid rgb(24, 23, 22);
+    color: rgb(19, 8, 8);
+    font-weight: bold;
+    
+    box-shadow: 5px 5px 4px gray;
+    border-radius: 5%;
+}
+
+#flexitem{
+    border-radius: 5%;
+}
+.music1{
+    padding: 20px;
+    padding-top: 0px;
+}
+.shopping{
+   
+    margin-left: 5px;  
+    margin-bottom: 70px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-style: bold;
+    border: 0;
+    background-color: rgba(255, 8, 0, 0.911);
+    color: #fdfdfd;
+    border-radius: 6%;
+}
+.shopping:hover{
+    background-color: #116feb;
+}
+span{
+    color: green
+}
+#flexbrand{
+    width: 180px;
+    height: 80px;
+    background-color: rgb(246, 255, 252);
+    border: 1px solid rgb(24, 23, 22);
+    color: rgb(19, 8, 8);
+    font-weight: bold; 
+    box-shadow: 5px 5px 4px gray;
+    border-radius: 5%;
+}
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+.up-arrow {
+    width: 2rem;
+    height: 2rem;
+    
+}
+.discover{
+    padding: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 5%;
+}
+#flexdis{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(246, 255, 252);
+    color: rgb(19, 8, 8);
+    font-weight: bold; 
+  
+    border-radius: 5%;
+}
+.products{
+    padding-top: 10px;
+    color: #000000;
+    text-align: center;
+}
+.products:hover{
+    color:  #116feb;
+}
+footer{
+    background-color: #000000;
+}
+.sub {
+    margin-top: 2rem;
+  }
+  
+.sub h4 {
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  form {
+    text-align: center;
+    margin: 0.4rem 2rem;
+  }
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 30px;
+    gap: 15%;
+    color: #ffffff;
+}
+.menu1 li{
+    list-style: none;
+    line-height: 3;
+}
+.menu2 li{
+    list-style: none;
+    line-height: 3;
+}
+.menu2 li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu1 li:hover{
+    color: #116feb; ;
+}
+.sm_handle{
+    padding-left: 100px;
+    padding-top: 30px;
+
+}
+.sm_handle a{
+    background-color: black;
+    padding: 10px 15px;
+   
+    margin: 5px 10px;
+    text-decoration: none;
+}
+.sm_handle a:hover{
+    background-color: #116feb;
+}
+
+.yt_handle{
+    color:#FF0000;
+}
+.linkedin_handle{
+    color: #0077b5;
+}
+.fb_handle{
+    color: #4267B2;
+}
+.insta_handle{
+    color: #E4405F;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+                outline: none;
+                box-sizing: border-box;
+                font-family: 'Montserrat', sans-serif;
+            }
+      
+          
+            /* Styling all the elements in nav as a whole */
+            nav {
+                background: #ffffff;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                height: 70px;
+                padding: 0 100px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+      
+            /* Styling the logo */
+            nav .logo {
+                color: #000000;
+                font-size: 30px;
+                font-weight: 600;
+                letter-spacing: -1px;
+            }
+      
+            /* Styling all the nav items as a whole */
+            nav .nav-items {
+                display: flex;
+                flex: 1;
+                padding: 0 0 0 20px;
+            }
+      
+            /* Styling the list items in the nav tag */
+            nav .nav-items li {
+                list-style: none;
+                padding: 0 10px;
+            }
+      
+            /* Styling each list items */
+            nav .nav-items li a {
+                color: #000000;
+                font-size: 15px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+      
+            /* Setting the hover colour on the list items*/
+              
+            nav .nav-items li a:hover {
+                color: #267beb;
+            }
+              
+            nav .searchbar {
+                position: relative;
+            }
+      
+            /* Styling the search box where the 
+                input would be given */
+            nav .searchbar input[type="text"] {
+                border: 0;
+                padding: 0;
+                width: 0px;
+                height: 35px;
+                border-radius: 3px;
+                transition: all 0.3s ease;
+            }
+      
+            /* Styling the search bar icon */
+            nav .searchbar .icon {
+                display: flex;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 100%;
+                background: none;
+                border-radius: 3px;
+                color: #000000;
+                transition: all 0.5s 0.3s ease;
+            }
+              
+            nav .searchbar .icon i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+            }
+            
+              
+            nav .searchbar .icon.active {
+                background: #062333;
+                transition: all 0.3s ease;
+            }
+        
+              
+            nav .searchbar input[type="text"].active {
+                width: 250px;
+                padding: 0 10px;
+                transition: all 0.5s 0.2s ease;
+            }
+              
+            nav .licon li {
+                list-style: none;
+                display: flex;
+            }
+              
+            nav .licon li a {
+                padding: 0 20px;
+            }
+      
+            /* Changing the colour of the login 
+                icon when hovered over*/
+              
+            .fa-user-circle:hover {
+                color: #267beb !important;
+            }
+.content{
+    height: 100px;
+}
