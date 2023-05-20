@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundMenia</title>
+    <link rel="stylesheet" type="text/css" href="sound.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Icon/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="margin"></div>
+    <nav>
+        <div class="logo">SoundMenia</div>
+  
+        <div class="nav-items">
+  
+            <!-- The Menu items -->
+            <li><a href="#">Bluetooth</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">SoundBar</a></li>
+            <li><a href="#">Branded</a></li>
+            <li><a href="#Trending">Trending</a></li>
+
+        </div>
+  
+        <!-- Defining the search bars -->
+        <div class="searchbar">
+            <input type="text" placeholder="search">
+            <div class="icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+  
+        <!-- Defining the login button -->
+        <div class="licon">
+            <li>
+                <a href="LoginSignup/Login.html" target="_blank">
+                    <i class="fas fa-user-circle
+                        fa-2x" style="color: rgb(0, 0, 0);">
+                    </i>
+                </a>
+            </li>
+        </div>
+    </nav> 
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/000_JBL_HP_TWS_Des.jpg" class="d-block w-100" alt="..." width="100%" height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Bassbuds-Zen_WebBanner_1330x.jpg" class="d-block w-100" alt="..." width="100%" height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/1550-desktop_9e577988-bcbd-491d-b353-b5d65ee9456b_1400x.jpg" class="d-block w-100" alt="..." width="100%" height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/000_JBL_HP_Sound Bar_Des.jpg" class="d-block w-100" alt="..." width="100%" height="600px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <h5><b>Popular Trending Products</b></h5>
+      <div class="trending">
+        <div class="flexitem" ><img id="flexitem"  src="./img/Airdopes_131.jpg" alt="" width="300" height="300"><p class="music1"><br><b> Airdropes 131 <br> ₹949</b><s> ₹2990</s><span>  67% off</span><br><br><button class="shopping"><b>ADD TO CART</b></button> </p></div>
+        <div class="flexitem" ><img id="flexitem"  src="./img/boat speaker.jpg" alt="" width="300" height="300"><p class="music1"><br><b> Stone 500 <br> ₹1,899</b><s> ₹2990</s><span>  33% off</span><br><br><button class="shopping"><b>ADD TO CART</b></button>  </p></div>
+        <div class="flexitem" ><img id="flexitem"  src="./img/1.JBL_TUNE_760NC_Product Image_Hero_Black.jpg" alt="" width="300" height="300"><p class="music1"><br><b> JBL TUNE 760NC<br> ₹4,899</b><s>  ₹7,9999</s><span>  37% off</span><br><br><button class="shopping"><b>ADD TO CART</b></button> </p></div>
+        <div class="flexitem" ><img id="flexitem"  src="./img/bose sound bar.jpg" alt="" width="300" height="300"><p class="music1"><br><b> Bose Smart Soundbar 700 <br> ₹67,399</b><s> ₹84,400</s><span>  20% off</span><br><br><button class="shopping"><b>ADD TO CART</b></button></p></div>
+      </div>
+      <i class="scroll-up" id="scroll-up"><img src="./img/icons8-up-arrow-64.png"
+       class="socicon up-arrow"
+       alt="up-arrow"/></i>
+      <br>
+      <h5><b>Branded</b></h5>
+      <div class="brand">
+        <div class="flexbrand"><img id="flexbrand" src="./Brand/bose.png" alt=""></div>
+        <div class="flexbrand"><img id="flexbrand" src="./Brand/jbl.png" alt=""></div>
+        <div class="flexbrand"><img id="flexbrand" src="./Brand/boat.jpg" alt=""></div>
+        <div class="flexbrand"><img id="flexbrand" src="./Brand/noise.png" alt=""></div>
+        <div class="flexbrand"><img id="flexbrand" src="./Brand/boult.png" alt=""></div>
+        <div class="flexbrand"><img id="flexbrand" src="./Brand/hammer.png" alt=""></div>
+
+      </div>
+      <br>
+      <h5><b>Discover Products</b></h5>
+      <div class="discover">
+        <div class="flexdis"><img id="flexdis" src="./Discover/sports headphone.jpeg" alt=""><br><p class="products"><b>Sports Headphone ></b></p></div>
+        <div class="flexdis"><img id="flexdis" src="./Discover/gaming.jpeg" alt=""><br><p class="products"><b>Gaming ></b></p></div>
+        <div class="flexdis"><img id="flexdis" src="./Discover/14316_HYG_active_true_wireless_03.jpg" alt=""><br><p class="products"><b>True Wireless ></b></p></div>
+        <div class="flexdis"><img id="flexdis" src="./Discover/waterproof.jpg" alt=""><br><p class="products"><b>Waterproof ></b></p></div>
+        <div class="flexdis"><img id="flexdis" src="./Discover/soundbars.jpg" alt=""><br><p class="products"><b>Soundbars ></b></p></div>
+      </div>
+      <footer>
+        <section class="sub" id="sub" text-align="centre">
+          <h4>Subscribe to our newsletter for updates</h4>
+          <form action="#">
+            <input
+              type="email"
+              name="email"
+              id="email-sub"
+              class="email-sub"
+              required
+            />
+            <input
+              type="submit"
+              value="Subscribe"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+    </section>
+    <div class="foot">
+      <div class="menu1"><b>Shop <br><br>
+        <li>Headphone</li>
+        <li>Wireless</li>
+        <li>Gaming</li>
+        <li>Speakers</li>
+        <li>Soundbars</li>
+        <li>Professional</li></b>
+      </div>
+      <div class="menu1"><b>Help <br><br>
+        <li>Track your Order</li>
+        <li>Warrenty & Support</li>
+        <li>Return Policy</li>
+        <li>FAQs</li>
+        <li>Why Buy Direct</li>
+        </b>
+      </div> 
+      <div class="menu1"><b>About Us <br><br>
+        <li>News</li>
+        <li>Carrers</li>
+        <li>Security</li>
+        <li>Read Our blogs</li>
+        <li>Cookie Policy</li>
+        </b>
+      </div>
+      <div class="menu2"><b>Contact us <br><br>
+        <li>1800-120-587</li>
+        <li><a href="http://mrinmoypolley35@gmail.com">E-mail Support</a></li>
+        </b>
+      </div>
+    </div>
+    <div class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100006605178069" role="button" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/TheEnte14102424" role="button"
+          target="_blank" ><i class="fab fa-twitter"></i
+          ></a>
+
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/@TheEntertainerGuy" role="button" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+    
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button" target="_blank"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/the_entertainerguy/" role="button" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mrinmoy-polley-a4551b1b8/" role="button" target="_blank" 
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Mrinmoy35" role="button"
+          target="_blank" ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Privacy Policy   .   Terms & Conditions
+        <a class="text-white" href="https://mdbootstrap.com/"></a>
+      </div>
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="#!" style="text-decoration: none;"> All Rights Reserved</a>
+      </div>
+      <!-- Copyright -->
+    </div>
+    
+      </footer>
+      <script src="sound.js">  </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
